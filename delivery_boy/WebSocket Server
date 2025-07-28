@@ -1,0 +1,93 @@
+<?php
+use Ratchet\MessageComponentInterface;
+use Ratchet\ConnectionInterface;
+require dirname(__DIR__) . '/vendor/autoload.php';
+
+class DeliveryWebSocket implements MessageComponentInterface {
+    private $clients;
+    private $db;
+    private $clientDbIds; // Map client connections to db_id
+
+    public function __construct() {
+        $this->clients = new \SplObjectStorage;
+        $this->clientDbIds = [];
+        include("../connection/connect.php");
+        $this->db = $db;
+    }
+
+    public function onOpen(ConnectionInterface $conn) {
+        $this->clients->attach($conn);
+        echo "New connection! ({$conn->resourceId})\n";
+    }
+
+    public function onMessage(ConnectionInterface $from, $msg) {
+        $data = json_decode($msg, true);
+        if (!is_array($data)) {
+            return;
+        }
+
+        if (isset($data['type']) && $data['type'] === 'location_update') {
+            $this->saveLocation($data);
+            foreach ($this->clients as $client) {
+                $client->send(json_encode($data));
+            }
+        } elseif (isset($data['type']) && $data['type'] === 'init' && isset($data['db_id'])) {
+            // Store the db_id for this connection
+            $this->clientDbIds[$from->resourceId] = $data['db_id'];
+            echo "Client {$from->resourceId} identified as db_id: {$data['db_id']}\n";
+        }
+    }
+
+    private function saveLocation($data) {
+        // Ensure order_id is an array or single value
+        $order_ids = isset($data['order_id']) ? (is_array($data['order_id']) ? $data['order_id'] : [$data['order_id']]) : [];
+        foreach ($order_ids as $order_id) {
+            $stmt = $this->db->prepare(
+                "INSERT INTO tracking (order_id, agent_id, latitude, longitude) 
+                 VALUES (?, ?, ?, ?)"
+            );
+            $stmt->bind_param("iidd", $order_id, $data['db_id'], $data['latitude'], $data['longitude']);
+            $stmt->execute();
+            $stmt->close();
+        }
+    }
+
+    // Broadcast new order to the specific delivery boy
+    public function broadcastNewOrder($db_id, $order_id) {
+        $message = json_encode([
+            'type' => 'new_order',
+            'db_id' => $db_id,
+            'order_id' => $order_id
+        ]);
+
+        foreach ($this->clients as $client) {
+            if (isset($this->clientDbIds[$client->resourceId]) && $this->clientDbIds[$client->resourceId] == $db_id) {
+                $client->send($message);
+                echo "Sent new_order to db_id: {$db_id}, order_id: {$order_id}\n";
+            }
+        }
+    }
+
+    public function onClose(ConnectionInterface $conn) {
+        // Remove client db_id mapping
+        unset($this->clientDbIds[$conn->resourceId]);
+        $this->clients->detach($conn);
+        echo "Connection closed! ({$conn->resourceId})\n";
+    }
+
+    public function onError(ConnectionInterface $conn, \Exception $e) {
+        echo "An error occurred: {$e->getMessage()}\n";
+        $conn->close();
+    }
+}
+
+$server = \Ratchet\Server\IoServer::factory(
+    new \Ratchet\Http\HttpServer(
+        new \Ratchet\WebSocket\WsServer(
+            new DeliveryWebSocket()
+        )
+    ),
+    8080
+);
+$server->run();
+?>

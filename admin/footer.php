@@ -1,0 +1,1 @@
+<footer class="footer"> © 2025 - Online Food Ordering System</footer>

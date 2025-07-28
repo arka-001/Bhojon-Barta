@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "bhojonbarta-ipgr",
+  "private_key_id": "345f2ad5d0e63c732d275d8ac7a5a5eec836a038",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDflOSOdxArWEIb\nLMKnCNr5m3GcODb9kSY05E8SlhaPHBW27aD2wDzRMuHV7dvt0c09ZRCdUKy2mHrz\nF/d7RjlN8UMGN2IQUP9GpGh59RPQQ7H0MmnNwF98WgGmm5vnS1gKNFocrV4QEr16\nqTxrOP3+pdwzK8sl2mc2R4j4vwNRZVDePuhB6heaDr2paoidtmY+fSijUxAzuPoe\nsp+TcK98JmBnjJbH90BhvGBJikycP1u6WT1pMZaIHxxio9oGQqWdigwdw18MtpBg\nUegjbOhGLGjFIoI8C+tvveStYEP2jZJHasUkX0iLLazshtQHewr1s4tUgAj6FYkj\nW9JtEd8LAgMBAAECggEAArg1FtXe61ANryFFFYgM4H1iDTmSfaoZfLThkK3Pr2+d\nhKtGSnS9005Fo0xbNlIs0hgxHWDBARBAv+/k3D8sl5ny1pgE3YLxX/gZpztybBWZ\nYV7dnO7qmmtz2rAeM4WImB3ZPMEPxFfzWGhyP4b4G/QDhix8XO+s/WLds9I1pZ9K\niv7AME8TEz+EPGESpPexOAU2bo/MTKJA+oHVI3wBAIo2n3xx+0Zn55WcVU0G7NOo\nZQDUE2zryh3JZsOQq+tf+eAwlXY47wM8ve9AbiTH2/M5oir/cxbUVTHUnj/7FrlQ\nCRdmbZ+MSHihhz6vfTEH72X9qIl0R0ueRN9mKt51JQKBgQD502Ut5th3pVgSxrDP\n7Bo2qb4m9/9nCGU9qpc0DMMEWYw5B2wIWEu3skOc5B4ys47FAWVZAyqkQAFwnXOX\nrRiRfUSCk+WM2yBoU8zT32hgbmtMj44hLj0hU+Fx92f0MCxiFZp6j+9Y9yg41gcF\nKo77Mkf6XtgjrL4bA0RC8jsonQKBgQDlG3SQbZw7mprk8B02g12BFOble0vkHq25\nv0KotUBFpEW/2gfJIjR+rgWOD/AEHli9eZBCuzyPks8zYYolE4QjPv54ymx+P3KW\nyT5dhMQkRQVg6dsm9CJdIOSye/kPKRuGc2Zc+/VKnU7wyFc3U1yiEGjs5ysjvJhi\n43M7eEhxxwKBgEpr2fFBmmyR+dmmDNfzqp9sE3RCXngP/TDQl7husM2j62y1tE4M\nF4pCdXfQUNqjuL0hPFK26cYCNyuYC+48J1x356fKbRB32oCZriPToqFPY3FsNlfW\nEWnTNg6gN/x7OU2CyAEIzbE/92BvCapVUkCsatq/1D1UYVFkuLoEtPDVAoGBAJdD\n51QsaoiX7UjWmBMT7Lp7GG/PVi4Ja15GPzawZP0WFs8ynw1XPh2dvCEtuKSffKut\nBWhpwvRwU8lyzwjnt8iloNITpEo+jeOsfzazn+TqhUCVZpJzgfTG8Pg/DhPKalf8\n/UrLOArJjgM/4wWuTmzaNMylXEA+FsbDsaNEKWClAoGAV3QC5D2kD598YfFl/brn\nD5gFNcEeaq9rZnnODEszfLXAuvhKygPF7GkyXh8g9PNV7C7CcCJkfpWL+pQRVbTw\nr8M5ZBAj1fFGaubdeF+RGkYXdRX31BX57Jrmhot/LsfKZOZzfg9mR91qTE0Q96Ji\nyorposKu73TybP9JmNJatM4=\n-----END PRIVATE KEY-----\n",
+  "client_email": "bhojonbarta@bhojonbarta-ipgr.iam.gserviceaccount.com",
+  "client_id": "104673959724892742508",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bhojonbarta%40bhojonbarta-ipgr.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

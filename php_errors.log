@@ -1,0 +1,59 @@
+[23-Jun-2025 15:49:40 Europe/Berlin] Applying coupon: '1111', Item total: 169
+[23-Jun-2025 15:49:40 Europe/Berlin] Coupon check for '1111': {"coupon_id":6,"coupon_code":"1111","discount_type":"percentage","discount_value":"50.00","min_order_value":"100.00","expiration_date":"2025-08-26","usage_limit":null,"usage_limit_per_user":null,"is_active":1,"created_at":"2025-03-23 22:33:57","updated_at":"2025-03-23 22:33:57"}
+[23-Jun-2025 15:49:40 Europe/Berlin] Discount applied: 84.5, New item total: 84.5
+[23-Jun-2025 15:49:41 Europe/Berlin] Applying coupon: '1111', Item total: 169
+[23-Jun-2025 15:49:41 Europe/Berlin] Coupon check for '1111': {"coupon_id":6,"coupon_code":"1111","discount_type":"percentage","discount_value":"50.00","min_order_value":"100.00","expiration_date":"2025-08-26","usage_limit":null,"usage_limit_per_user":null,"is_active":1,"created_at":"2025-03-23 22:33:57","updated_at":"2025-03-23 22:33:57"}
+[23-Jun-2025 15:49:41 Europe/Berlin] Discount applied: 84.5, New item total: 84.5
+[23-Jun-2025 15:50:48 Europe/Berlin] Applying coupon: '1111', Item total: 169
+[23-Jun-2025 15:50:48 Europe/Berlin] Coupon check for '1111': {"coupon_id":6,"coupon_code":"1111","discount_type":"percentage","discount_value":"50.00","min_order_value":"100.00","expiration_date":"2025-08-26","usage_limit":null,"usage_limit_per_user":null,"is_active":1,"created_at":"2025-03-23 22:33:57","updated_at":"2025-03-23 22:33:57"}
+[23-Jun-2025 15:50:48 Europe/Berlin] Discount applied: 84.5, New item total: 84.5
+[23-Jun-2025 15:50:48 Europe/Berlin] Applying coupon: '1111', Item total: 169
+[23-Jun-2025 15:50:48 Europe/Berlin] Coupon check for '1111': {"coupon_id":6,"coupon_code":"1111","discount_type":"percentage","discount_value":"50.00","min_order_value":"100.00","expiration_date":"2025-08-26","usage_limit":null,"usage_limit_per_user":null,"is_active":1,"created_at":"2025-03-23 22:33:57","updated_at":"2025-03-23 22:33:57"}
+[23-Jun-2025 15:50:48 Europe/Berlin] Discount applied: 84.5, New item total: 84.5
+[23-Jun-2025 15:50:48 Europe/Berlin] Applying coupon: '1111', Item total: 169
+[23-Jun-2025 15:50:48 Europe/Berlin] Coupon check for '1111': {"coupon_id":6,"coupon_code":"1111","discount_type":"percentage","discount_value":"50.00","min_order_value":"100.00","expiration_date":"2025-08-26","usage_limit":null,"usage_limit_per_user":null,"is_active":1,"created_at":"2025-03-23 22:33:57","updated_at":"2025-03-23 22:33:57"}
+[23-Jun-2025 15:50:48 Europe/Berlin] Discount applied: 84.5, New item total: 84.5
+[23-Jun-2025 15:52:59 Europe/Berlin] Applying coupon: '1111', Item total: 169
+[23-Jun-2025 15:52:59 Europe/Berlin] Coupon check for '1111': {"coupon_id":6,"coupon_code":"1111","discount_type":"percentage","discount_value":"50.00","min_order_value":"100.00","expiration_date":"2025-08-26","usage_limit":null,"usage_limit_per_user":null,"is_active":1,"created_at":"2025-03-23 22:33:57","updated_at":"2025-03-23 22:33:57"}
+[23-Jun-2025 15:52:59 Europe/Berlin] Discount applied: 84.5, New item total: 84.5
+[23-Jun-2025 15:52:59 Europe/Berlin] Form submitted - Processing order for user_id: 42
+[23-Jun-2025 15:52:59 Europe/Berlin] POST data: {"address":"Kolkata, Kolkata, West Bengal, India","latitude":"22.57264590","longitude":"88.36389530","city":"Kolkata","submit_order":"1","applied_coupon":"1111","coupon_code":"1111","order_message":{"44":" spicey "},"mod":"COD"}
+[23-Jun-2025 15:52:59 Europe/Berlin] Checking delivery for city: 'Kolkata', Count: 1
+[23-Jun-2025 15:52:59 Europe/Berlin] POST Data - Address: Kolkata, Kolkata, West Bengal, India, Latitude: 22.5726459, Longitude: 88.3638953, City: Kolkata
+[23-Jun-2025 15:52:59 Europe/Berlin] Message saved for order_id: 68595c3b731bf, rs_id: 44
+[23-Jun-2025 15:52:59 Europe/Berlin] Order IDs created: 68595c3b731bf
+[23-Jun-2025 15:53:11 Europe/Berlin] Invoice email sent successfully to bikkyb2020@gmail.com
+[23-Jun-2025 15:53:11 Europe/Berlin] Invoice email sent after order processing for user_id: 42
+[23-Jun-2025 15:53:11 Europe/Berlin] Cart cleared successfully for user_id: 42
+[23-Jun-2025 15:53:11 Europe/Berlin] Order processed successfully for user_id: 42, redirecting to your_orders.php
+[23-Jun-2025 22:38:21 Europe/Berlin] Applying coupon: '123', Item total: 490
+[23-Jun-2025 22:38:21 Europe/Berlin] Coupon check for '123': Not found
+[23-Jun-2025 22:38:21 Europe/Berlin] Coupon '123' not found or invalid
+[23-Jun-2025 22:38:35 Europe/Berlin] Applying coupon: '1111', Item total: 490
+[23-Jun-2025 22:38:35 Europe/Berlin] Coupon check for '1111': {"coupon_id":6,"coupon_code":"1111","discount_type":"percentage","discount_value":"50.00","min_order_value":"100.00","expiration_date":"2025-08-26","usage_limit":null,"usage_limit_per_user":null,"is_active":1,"created_at":"2025-03-23 22:33:57","updated_at":"2025-03-23 22:33:57"}
+[23-Jun-2025 22:38:35 Europe/Berlin] Discount applied: 245, New item total: 245
+[23-Jun-2025 22:38:35 Europe/Berlin] Applying coupon: '1111', Item total: 490
+[23-Jun-2025 22:38:35 Europe/Berlin] Coupon check for '1111': {"coupon_id":6,"coupon_code":"1111","discount_type":"percentage","discount_value":"50.00","min_order_value":"100.00","expiration_date":"2025-08-26","usage_limit":null,"usage_limit_per_user":null,"is_active":1,"created_at":"2025-03-23 22:33:57","updated_at":"2025-03-23 22:33:57"}
+[23-Jun-2025 22:38:35 Europe/Berlin] Discount applied: 245, New item total: 245
+[23-Jun-2025 22:40:30 Europe/Berlin] Applying coupon: '1111', Item total: 490
+[23-Jun-2025 22:40:30 Europe/Berlin] Coupon check for '1111': {"coupon_id":6,"coupon_code":"1111","discount_type":"percentage","discount_value":"50.00","min_order_value":"100.00","expiration_date":"2025-08-26","usage_limit":null,"usage_limit_per_user":null,"is_active":1,"created_at":"2025-03-23 22:33:57","updated_at":"2025-03-23 22:33:57"}
+[23-Jun-2025 22:40:30 Europe/Berlin] Discount applied: 245, New item total: 245
+[23-Jun-2025 22:40:30 Europe/Berlin] Applying coupon: '1111', Item total: 490
+[23-Jun-2025 22:40:30 Europe/Berlin] Coupon check for '1111': {"coupon_id":6,"coupon_code":"1111","discount_type":"percentage","discount_value":"50.00","min_order_value":"100.00","expiration_date":"2025-08-26","usage_limit":null,"usage_limit_per_user":null,"is_active":1,"created_at":"2025-03-23 22:33:57","updated_at":"2025-03-23 22:33:57"}
+[23-Jun-2025 22:40:30 Europe/Berlin] Discount applied: 245, New item total: 245
+[23-Jun-2025 22:40:30 Europe/Berlin] Applying coupon: '1111', Item total: 490
+[23-Jun-2025 22:40:30 Europe/Berlin] Coupon check for '1111': {"coupon_id":6,"coupon_code":"1111","discount_type":"percentage","discount_value":"50.00","min_order_value":"100.00","expiration_date":"2025-08-26","usage_limit":null,"usage_limit_per_user":null,"is_active":1,"created_at":"2025-03-23 22:33:57","updated_at":"2025-03-23 22:33:57"}
+[23-Jun-2025 22:40:30 Europe/Berlin] Discount applied: 245, New item total: 245
+[23-Jun-2025 22:44:52 Europe/Berlin] Applying coupon: '1111', Item total: 490
+[23-Jun-2025 22:44:52 Europe/Berlin] Coupon check for '1111': {"coupon_id":6,"coupon_code":"1111","discount_type":"percentage","discount_value":"50.00","min_order_value":"100.00","expiration_date":"2025-08-26","usage_limit":null,"usage_limit_per_user":null,"is_active":1,"created_at":"2025-03-23 22:33:57","updated_at":"2025-03-23 22:33:57"}
+[23-Jun-2025 22:44:52 Europe/Berlin] Discount applied: 245, New item total: 245
+[23-Jun-2025 22:44:52 Europe/Berlin] Form submitted - Processing order for user_id: 44
+[23-Jun-2025 22:44:52 Europe/Berlin] POST data: {"address":"Kolkata, Kolkata, West Bengal, India","latitude":"22.57264590","longitude":"88.36389530","city":"Kolkata","submit_order":"1","applied_coupon":"1111","coupon_code":"1111","order_message":{"46":"not show spycy ","30":""},"mod":"COD"}
+[23-Jun-2025 22:44:52 Europe/Berlin] Checking delivery for city: 'Kolkata', Count: 1
+[23-Jun-2025 22:44:52 Europe/Berlin] POST Data - Address: Kolkata, Kolkata, West Bengal, India, Latitude: 22.5726459, Longitude: 88.3638953, City: Kolkata
+[23-Jun-2025 22:44:52 Europe/Berlin] Message saved for order_id: 6859bcc4c6917, rs_id: 46
+[23-Jun-2025 22:44:52 Europe/Berlin] Order IDs created: 6859bcc4c6917, 6859bcc4c8b06
+[23-Jun-2025 22:45:00 Europe/Berlin] Invoice email sent successfully to ytvillainar@gmail.com
+[23-Jun-2025 22:45:00 Europe/Berlin] Invoice email sent after order processing for user_id: 44
+[23-Jun-2025 22:45:00 Europe/Berlin] Cart cleared successfully for user_id: 44
+[23-Jun-2025 22:45:00 Europe/Berlin] Order processed successfully for user_id: 44, redirecting to your_orders.php
